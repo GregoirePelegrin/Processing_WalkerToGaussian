@@ -28,11 +28,16 @@ void draw(){
     //     currPath.update();
     //     currPath.displayLast();
     // }
-    if(path.stop){
-        path = new Path(100, 4*width/10);
-        graph.display();
-    } else {
-        path.update();
-        path.displayLast();
-    }
+
+    // if(path.stop){
+    //     path = new Path(100, 4*width/10);
+    //     graph.display();
+    // } else {
+    //     path.update();
+    //     path.displayLast();
+    // }
+
+    path = new Path(100, 4*width/10);
+    path.fullUpdate();
+    graph.display();
 }

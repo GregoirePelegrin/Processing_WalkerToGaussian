@@ -33,6 +33,7 @@ class Path{
     void fullUpdate(){
         while(!this.stop)
             this.update();
+        this.display();
     }
     void update(){
         if(!this.stop){

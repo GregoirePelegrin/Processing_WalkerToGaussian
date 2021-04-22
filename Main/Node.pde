@@ -8,8 +8,8 @@ class Node{
     }
 
     void display(){
-        stroke(255, 20);
-        fill(255, 20);
+        stroke(255, 2);
+        fill(255, 2);
         ellipse(this.x, this.y, 5, 5);
     }
 }
